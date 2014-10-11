@@ -1,0 +1,90 @@
+#hero{
+	background-image: url('../img/zx2.jpg');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ body{
+ 	background-color: black;
+ 	color: white;
+ }
+#menu{
+	display: block;
+	height: 30px;
+	width: 100%;
+}
+#menu li{
+	display: block;
+	background-color: black;
+	
+}
+#menu a{
+	width: 19%;
+	display: block;
+	float: left;
+	background-color: white;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.rowrow{
+	height: 100px;
+	width: 100%;
+	border: 3px white solid;
+}
+.rowrow div{
+	float: left;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	margin-top: 15px;
+	height: 70%;
+	width: 30%;
+	background-color: white;
+}
+form{
+	font-family: tahoma;
+	font-size: 20pt;
+	color: gray;
+	display: block;
+}
+input:focus,textarea:focus,select:focus{
+ box-shadow: 0 0 8px white;
+}
+
+input[type=submit] {
+    border-radius: 15px;
+    border: 0;
+    width: 100px;
+    height:25px;
+    font-family: tahoma;
+    font-size: 14pt;
+}
+
+#bio{
+	font: sans-serif;
+	background-color: white;
+	color: black;
+	text-align: justify;
+}
+img{
+	float: left;
+	border-style: solid;
+	border-width: thick;
+	height: 360px;
+	width: 260px;
+}
+#bio a{
+	text-decoration: blink;
+	font-size: 26pt;
+	color: blue;
+
+}
+div b{
+	font-size: 22pt;
+}
+#menu li a:hover{background-color: black;}
+#menu li a:visited:active{color: blue;}
+#menu li a:visited{color: gray; }
